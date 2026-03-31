@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 
 warnings.filterwarnings("ignore")
-symbol = input("Enter stock/crypto symbol (e.g., BTC-USD, RELIANCE.NS): ")
+symbol = input("Enter stock/crypto symbol (e.g.,BTC-USD, RELIANCE.NS): ")
 start_date= input("Enter start date (YYYY-MM-DD): ")
 end_date =input("Enter end date (YYYY-MM-DD): ")
 data= yf.download(symbol, start=start_date, end=end_date)
@@ -42,10 +42,10 @@ y_pred = model.predict(X_test)
 
 
 accuracy = accuracy_score(y_test,y_pred)
-print("\nModel Accuracy:",round(accuracy, 2))
+print("\nModel Accuracy:",round(accuracy,2))
 
 #Predict next day moment
-latest_data = X[-1].reshape(1, -1)
+latest_data = X[-1].reshape(1,-1)
 prediction =model.predict(latest_data)
 print("\nNext Day Prediction:")
 if prediction[0] ==1:
