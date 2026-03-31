@@ -12,7 +12,7 @@ It uses real-time data fetched from Yahoo Finance and applies a Logistic Regress
 
 *  Uses real financial data (stocks & crypto)
 *  Dynamic user input (symbol & date range)
-* 🇮 Supports Indian stocks (e.g., RELIANCE.NS)
+* Supports Indian stocks (e.g., RELIANCE.NS)
 *  Machine Learning-based prediction (UP/DOWN)
 * Displays model accuracy
 
