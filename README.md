@@ -100,7 +100,8 @@ Application-based Machine Learning Project (Predictive Analytics)
 
 ##  Author
 
-* Your Name
+* Sai Nandu Varkhede
 * B.Tech CSE Student
+* 25BCE10836
 ---
 
